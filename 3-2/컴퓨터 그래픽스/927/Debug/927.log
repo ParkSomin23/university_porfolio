@@ -1,0 +1,32 @@
+﻿  kk.cpp
+g:\927\927\kk.cpp(37): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+g:\927\927\kk.cpp(41): warning C4305: '+=': 'double'에서 'float'(으)로 잘립니다.
+g:\927\927\kk.cpp(50): warning C4305: '+=': 'double'에서 'float'(으)로 잘립니다.
+g:\927\927\kk.cpp(53): warning C4305: '+=': 'double'에서 'float'(으)로 잘립니다.
+g:\927\927\kk.cpp(56): warning C4305: '+=': 'double'에서 'float'(으)로 잘립니다.
+g:\927\927\kk.cpp(59): warning C4305: '+=': 'double'에서 'float'(으)로 잘립니다.
+g:\927\927\kk.cpp(62): warning C4305: '+=': 'double'에서 'float'(으)로 잘립니다.
+g:\927\927\kk.cpp(65): warning C4305: '+=': 'double'에서 'float'(으)로 잘립니다.
+g:\927\927\kk.cpp(68): warning C4305: '+=': 'double'에서 'float'(으)로 잘립니다.
+g:\927\927\kk.cpp(75): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+g:\927\927\kk.cpp(137): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+g:\927\927\kk.cpp(138): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+g:\927\927\kk.cpp(152): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+g:\927\927\kk.cpp(204): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+g:\927\927\kk.cpp(218): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+g:\927\927\kk.cpp(291): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+g:\927\927\kk.cpp(292): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+g:\927\927\kk.cpp(293): warning C4305: '+=': 'double'에서 'float'(으)로 잘립니다.
+g:\927\927\kk.cpp(298): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+g:\927\927\kk.cpp(304): warning C4305: '+=': 'double'에서 'float'(으)로 잘립니다.
+g:\927\927\kk.cpp(308): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+g:\927\927\kk.cpp(355): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+g:\927\927\kk.cpp(364): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+g:\927\927\kk.cpp(365): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+g:\927\927\kk.cpp(366): warning C4305: '+=': 'double'에서 'float'(으)로 잘립니다.
+g:\927\927\kk.cpp(369): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+g:\927\927\kk.cpp(372): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+g:\927\927\kk.cpp(375): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+g:\927\927\kk.cpp(380): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+g:\927\927\kk.cpp(390): warning C4305: '초기화 중': 'double'에서 'const GLfloat'(으)로 잘립니다.
+  927.vcxproj -> G:\927\Debug\927.exe

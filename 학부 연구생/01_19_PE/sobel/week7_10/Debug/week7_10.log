@@ -1,0 +1,4 @@
+﻿  pch.cpp
+  CV.cpp
+c:\users\user\desktop\opencv\01_19_pe\week7_10\week7_10\cv.cpp(37): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  week7_10.vcxproj -> C:\Users\user\Desktop\opencv\01_19_PE\week7_10\Debug\week7_10.exe

@@ -1,0 +1,264 @@
+<!DOCTYPE HTML>
+<!--
+	Exponent by Pixelarity
+	pixelarity.com | hello@pixelarity.com
+	License: pixelarity.com/license
+-->
+<html>
+	<head>
+		
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-154642080-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-154642080-1');
+</script>
+
+
+		<title>Story - 첫걸음</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main2.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+
+		<!--구글차트 연도별-->
+		<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+		<script type="text/javascript">
+		google.charts.load('current', {'packages':['corechart']});
+		google.charts.setOnLoadCallback(drawChart);
+		google.charts.setOnLoadCallback(drawChart2);    
+
+		function drawChart() {
+			var data = google.visualization.arrayToDataTable([
+			['Survey Years', 'Percentage(%)'],
+			['2007',  22.2],
+			['2008',  21.9],
+			['2009',  20.7],
+			['2010',  21.0],
+			['2011',  20.5],
+			['2012',  22.0],
+			['2013',  22.5],
+			['2014',  22.5],
+			['2015',  24.1],
+			['2016',  25.2]
+		]);
+
+        var options = {
+			title: '연도별 아침 안 먹는 사람',
+			curveType: 'none',
+			lineWidth: 3,
+			colors: ['#a1d7d7'],
+			legend: { position: 'bottom' },
+			width: '100%',
+			height: 350,
+			vAxis:{
+                    viewWindow: {
+						min: 0,
+						max: 40
+                    }
+            }
+        };
+
+        var chart = new google.visualization.LineChart(document.getElementById('year_chart'));
+
+        chart.draw(data, options);
+		
+		window.addEventListener('resize', function() { chart.draw(data, options); }, false);
+      }
+	  
+	  
+	  function drawChart2() {
+
+        var data2 = google.visualization.arrayToDataTable([
+          ['Age Groups', 'Percentage(%)'],
+          ['1-2', 6.7],
+          ['3-5', 7.1],
+          ['6-11', 10.0],
+          ['12-18', 34.6],
+          ['19-29', 52.6],
+		  ['30-49', 29.2],
+		  ['50-64', 16.3],
+		  ['65-', 7.3],
+        ]);
+
+        var options2 = {
+			title: '연령별 아침 식사 안 먹는 사람',
+			width: '100%',
+			height: 350,
+			colors: ['#a1d7d7'],
+			legend: { position: 'none' }
+        };
+
+        var chart2 = new google.visualization.ColumnChart(document.getElementById('colchart'));
+
+        chart2.draw(data2, options2);
+		
+		window.addEventListener('resize', function() { chart2.draw(data2, options2); }, false);
+
+      }
+
+		</script>
+	</head>
+
+</head>
+<body>
+
+	<!-- Header -->
+			<header id="header">
+				<h1><a href="index.html">아침을 여는 첫걸음</a></h1>
+				<nav id="nav">
+					<ul>
+						<li><a href="contact.html">Contact</a></li>
+						<li class="special">
+							<a href="#menu" class="icon fa-bars">Menu</a>
+							<div id="menu">
+								<ul>
+									<li><a href="index.html">Home</a></li>
+									<li><a href="story.html">Story</a></li>
+									<li>
+										<span>About App</span>
+										<ul>
+											<li><a href="App.html">Functions</a></li>
+											<li><a href="char2.html">Character 돝돝이</a></li>
+										</ul>
+									</li>
+									<li><a href="dev.html">About Developer</a></li>
+									<li><a href="contact.html">Contact</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</nav>
+			</header>
+
+	<!-- Main -->
+	<a name="pg_top"></a>
+	<div id="main" class="container">
+		<header class="major">
+			<h2>첫걸음의 Story</h2>
+			<p>여러분의 아침은 안녕하신가요?</p>
+		</header>
+		<div class="row 150%">
+			<div class="8u 12u$(medium)">
+
+				<!-- Content -->
+				<section id="content">
+					<h3>아침 시간의 중요성은 누구나 알고 있다</h3>
+					<div class="ytubeWrap"><iframe width="560" height="315" src="https://www.youtube.com/embed/i0kiRwCOdI0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+					<p>애플의 팀 쿡은 3시 45분에, 스타벅스의 하워드 슐츠는 4시 30분에, 버진 그룹의 리처드 브랜슨과 보그의 애나 원터는 5시 45분에 일어난다.
+					<br>그들이 이렇게 성공할 수 있었던 이유는 아침 시간을 잘 활용했기 때문일 것이다. 일찍 일어남으로써 하루의 주도권을 완전히 지배할 수 있었기에 가능한 일이었을 것이다.</p>
+
+					<hr>
+
+					<h3>하지만 등교/출근 준비만으로도 충분히 바쁘다</h3>
+					<h5>대한민국 국민 결식률 추이</h5>
+					<div class="chart" id="year_chart"></div>
+					<br>
+					<div class="chart" id="colchart"></div>
+					<br>
+					<p>2016년 기준 <b>4명 중 1명</b>은 아침식사를 하지 않은 것으로 나타난다. 나이별로는 만 19~29세가 <b>"52.6%"</b>로 가장 높은 수치를 보였다.
+					아침식사를 먹지 못할 정도로 우리나라 사람들은 바쁜 아침 생활을 보내고 있다.</p>
+					<p><b>하지만</b></p> 
+					<p>우리는 일어나자마자 바로 준비하고 바로 나갈까? 10분만 더 자고 싶어서 일어나야 할 시간을 지나치기도 하고, 평소보다 일찍 일어났어도 침대에서 오늘 뉴스와 SNS를 확인하고, 웹툰이나 유튜브를 시청할 때도 있다. 가끔 일어나서 아무것도 하지 않고 멍 떄리면서 시간을 버리기도 한다.</p>
+					
+					<hr>
+					
+					<h3>첫걸음과 함께 아침의 주도권 되찾기</h3>
+					<div class="ytubeWrap"><iframe width="560" height="315" src="https://www.youtube.com/embed/LHAyE0UC5I4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+					<p>이불 정리, 간단한 운동, 아침 일기 작성, 하루 목표 작성, 명상, 독서, 아침 챙겨 먹기 등 간단하면서도 확실하게 일어나서 할 수 있는 목표를 <b>첫걸음</b>과 달성할 수 있도록 
+					<b>침대에서 내딛는 첫걸음을 함께 합니다.</b></p>
+					<br>
+					
+					<a class="image fit"><img src="pic/logo.png"></a>
+					
+					<br>
+					<div class="row uniform">
+								<div class="12u$">
+									<ul class="actions align-center">
+										<li><a href="#pg_top" class="button fit special">To Top</a></li>
+										<li><a href="index.html" class="button fit">To Home</a></li>
+									</ul>
+								</div>
+					</div>
+							
+				</section>
+
+			</div>
+			
+			<div class="4u$ 12u$(medium)">
+
+					<!-- Sidebar -->
+					<section id="sidebar">
+							<section>
+								<h3>통계 자료 출처</h3>
+								<a class="image fit"><img src="pic/logo_kcdc.jpg"></a>
+								<p>Korea Health Statistics 2016, Korea National Health and Nutrition Examination Survey</p>
+								<footer>
+									<ul class="actions">
+										<li><a href="http://knhanes.cdc.go.kr" target="_blank" class="button small alt">질병관리본부</a></li>
+									</ul>
+								</footer>
+							</section>
+							<hr />
+					</div>
+				</div>
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="container">
+						
+							<h3>Get in touch</h3>
+							<div class="table-wrapper">
+							<table class="alt">
+							<tr>
+							<td>
+							<br>
+							<ul class="labeled-icons">
+								
+								<li>
+									<h4 class="icon alt fa-envelope"><span class="label">Email</span></h4>
+									<a href="contact.html">somin0323@naver.com</a>
+								</li>
+								
+							</ul>
+							</td>
+							<td>
+							<br>
+							<ul class="labeled-icons">
+								<li>
+									<h4 class="icon alt fa-instagram"><span class="label">Facebook</span></h4>
+									<a href="https://www.instagram.com/som.out03/" target="_blank">@som.out03</a>
+								</li>
+							</ul>
+							</td>
+							</tr>
+							</table>
+							</div>
+					</div>
+				</div>
+				<div class="copyright container">
+					<p>&copy; Untitled. All rights reserved.</p>
+					<ul class="menu">
+						<li>Terms of Use</li>
+						<li>Privacy Policy</li>
+						<li><a href="contact.html">Contact Us</a></li>
+					</ul>
+				</div>
+			</footer>
+
+			<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+		</body>
+	</html>

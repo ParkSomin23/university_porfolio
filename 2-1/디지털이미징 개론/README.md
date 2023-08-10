@@ -1,0 +1,1 @@
+[디징 개론 팀플 시연 영상 링크](https://youtu.be/qYAmvUwMqhs)

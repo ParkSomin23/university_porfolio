@@ -1,0 +1,10 @@
+﻿  CV.cpp
+c:\users\user\desktop\opencv\02_19_2학기_ar\detect\detect\cv.cpp(41): warning C4101: 'e' :참조되지 않은 지역 변수입니다.
+c:\users\user\desktop\opencv\02_19_2학기_ar\detect\detect\cv.cpp(82): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+c:\users\user\desktop\opencv\02_19_2학기_ar\detect\detect\cv.cpp(92): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+c:\users\user\desktop\opencv\02_19_2학기_ar\detect\detect\cv.cpp(102): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\opencv\02_19_2학기_ar\detect\detect\cv.cpp(108): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\opencv\02_19_2학기_ar\detect\detect\cv.cpp(112): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\opencv\02_19_2학기_ar\detect\detect\cv.cpp(113): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\opencv\02_19_2학기_ar\detect\detect\cv.cpp(119): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  detect.vcxproj -> C:\Users\user\Desktop\opencv\02_19_2학기_AR\detect\Debug\detect.exe

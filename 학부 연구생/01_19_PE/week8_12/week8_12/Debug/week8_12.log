@@ -1,0 +1,52 @@
+﻿  CV.cpp
+c:\users\user\desktop\opencv_pe\week8_12\week8_12\cv.cpp(970): warning C4244: '인수': 'double'에서 '_Tp'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Tp=float
+          ]
+c:\users\user\desktop\opencv_pe\week8_12\week8_12\cv.cpp(996): warning C4244: '인수': 'double'에서 '_Tp'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Tp=float
+          ]
+c:\users\user\desktop\opencv_pe\week8_12\week8_12\cv.cpp(1006): warning C4244: '인수': 'double'에서 '_Tp'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Tp=int
+          ]
+c:\users\user\desktop\opencv_pe\week8_12\week8_12\cv.cpp(1008): warning C4244: '인수': 'double'에서 '_Tp'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Tp=int
+          ]
+c:\users\user\desktop\opencv_pe\week8_12\week8_12\cv.cpp(1009): warning C4244: '인수': 'double'에서 '_Tp'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Tp=int
+          ]
+c:\users\user\desktop\opencv_pe\week8_12\week8_12\cv.cpp(1013): warning C4244: '인수': 'double'에서 '_Tp'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Tp=int
+          ]
+c:\users\user\desktop\opencv_pe\week8_12\week8_12\cv.cpp(1014): warning C4244: '인수': 'double'에서 '_Tp'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Tp=int
+          ]
+c:\users\user\desktop\opencv_pe\week8_12\week8_12\cv.cpp(1019): warning C4244: '인수': 'double'에서 '_Tp'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Tp=int
+          ]
+c:\users\user\desktop\opencv_pe\week8_12\week8_12\cv.cpp(1020): warning C4244: '인수': 'double'에서 '_Tp'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Tp=int
+          ]
+c:\users\user\desktop\opencv_pe\week8_12\week8_12\cv.cpp(1021): warning C4244: '인수': 'double'에서 '_Tp'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Tp=int
+          ]
+  week8_12.vcxproj -> C:\Users\user\Desktop\opencv_PE\week8_12\Debug\week8_12.exe

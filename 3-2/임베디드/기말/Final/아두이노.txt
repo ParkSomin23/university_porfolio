@@ -1,0 +1,179 @@
+#include <LiquidCrystal_I2C.h>
+#include <Wire.h>
+
+LiquidCrystal_I2C lcd(0x27, 16, 2);
+
+int pin = 13;
+int btn = 2;
+
+int pressCnt = 0;
+bool canPush = false;
+
+int music = -1;
+
+String title_1 = "RAIN AGAIN TOMORROW  ";
+String title_2 = "LULLABY FOR A CAT  ";
+
+int k = 0;
+int g = 0;
+
+void setup() {
+  Serial.begin(9600);
+
+  lcd.init();
+  lcd.noBacklight();
+
+  lcd.setCursor(0,0);
+  lcd.print("start");
+  
+  pinMode(pin, OUTPUT);
+  pinMode(btn, INPUT);
+  
+  Serial.write(9);
+}
+
+void loop() {
+  int state = digitalRead(btn);
+  
+  if(canPush == true){
+    if(state == 1){
+      pressCnt++;
+      canPush = false;
+    }
+  }
+
+  if(state == 0){
+    canPush = true;
+  }
+
+  if(pressCnt == 1){
+    digitalWrite(pin, HIGH);
+    
+    lcd.backlight();
+    lcd.clear();
+    lcd.print("ON");
+    
+    //라디오 켜짐
+    Serial.write(8);
+    lcd.setCursor(0,1);
+    lcd.print("SLEEPLESS");
+    
+    delay(3000);
+    pressCnt = 3;
+  }
+  
+  if(pressCnt == 4){
+    digitalWrite(pin, LOW);
+    
+    lcd.clear();
+    lcd.print("OFF");
+    //music = 9;
+    Serial.write(9);
+    delay(3000);
+    lcd.noBacklight();
+    
+    pressCnt = 0;
+  }
+  
+
+  // 주파수
+  int turn = analogRead(A0);
+  music = map(turn, 0, 1023, 0, 7);
+  float freq = map_f(turn, 0, 1023, 87.5, 108.0);
+  
+  if(pressCnt == 3){
+    
+    lcd.clear();
+    lcd.setCursor(8,0);
+    lcd.print(freq, 1);
+    lcd.setCursor(13,0);
+    lcd.print("MHz");
+    
+    if(music == 1){
+      //lcd.clear();
+      lcd.setCursor(0,0);
+      lcd.print("11:00PM");
+      lcd.setCursor(0,1);
+      lcd.print("IN SEOUL");
+      delay(500);
+    }
+    
+     if(music == 2){
+      lcd.setCursor(0,0);
+      lcd.print("12:00AM");
+      lcd.setCursor(0,1);
+      lcd.print("LOVEDRUNK");
+      delay(500);
+    }
+    
+     if(music == 3){
+      lcd.setCursor(0,0);
+      lcd.print("1:00AM");
+      lcd.setCursor(0,1);
+      lcd.print("ETERNAL SUNSHINE");
+      delay(500);
+    }
+    
+     if(music == 4){
+      lcd.setCursor(0,0);
+      lcd.print("2:00AM");
+      lcd.setCursor(0,1);
+      lcd.print("NO DIFFERENT");
+      delay(500);
+    }
+    
+    
+     if(music == 5){
+      lcd.setCursor(0,0);
+      lcd.print("3:00AM");
+
+      String title1 = title_1.substring(g);
+      lcd.setCursor(0,1);
+      lcd.print(title1);
+      
+      int len1 = title1.length();
+      String subTitle1 = title_1.substring(len1-1);
+      lcd.setCursor(len1,1);
+      lcd.print(subTitle1);
+      g++;
+      
+      if(g == title_1.length())
+        g = 0;
+      
+      //Serial.print(len);
+      //lcd.print("RAIN AGAIN TOMORROW");
+      delay(500);
+    }
+    
+     if(music == 6){
+      lcd.setCursor(0,0);
+      lcd.print("4:00AM");
+      
+      String title = title_2.substring(k);
+      lcd.setCursor(0,1);
+      lcd.print(title);
+      
+      int len = title.length();
+      String subTitle = title_2.substring(len-1);
+      lcd.setCursor(len,1);
+      lcd.print(subTitle);
+      k++;
+      
+      if(k == title_2.length())
+        k = 0;
+
+      lcd.print("LULLABY FOR A CAT");
+      delay(500);
+    }
+  
+    Serial.write(music);
+  }
+}
+
+
+float map_f(float val, float in_min, float in_max, float out_min, float out_max) {
+
+  return (float)(val - in_min) * (out_max - out_min) / (float)(in_max - in_min) + out_min;
+
+  
+}

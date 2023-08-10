@@ -1,0 +1,175 @@
+﻿  DDUTIL.CPP
+DDUTIL.CPP(52): error C2664: 'HANDLE LoadImageW(HINSTANCE,LPCWSTR,UINT,int,int,UINT)': 인수 2을(를) 'LPCSTR'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+  DDUTIL.CPP(52): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+DDUTIL.CPP(54): error C2664: 'HANDLE LoadImageW(HINSTANCE,LPCWSTR,UINT,int,int,UINT)': 인수 2을(를) 'LPCSTR'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+  DDUTIL.CPP(54): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+DDUTIL.CPP(58): error C2664: 'void OutputDebugStringW(LPCWSTR)': 인수 1을(를) 'const char [16]'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+  DDUTIL.CPP(58): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+DDUTIL.CPP(65): error C2664: 'void OutputDebugStringW(LPCWSTR)': 인수 1을(를) 'const char [21]'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+  DDUTIL.CPP(65): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+DDUTIL.CPP(128): error C2664: 'HRSRC FindResourceW(HMODULE,LPCWSTR,LPCWSTR)': 인수 2을(를) 'LPCSTR'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+  DDUTIL.CPP(128): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+DDUTIL.CPP(132): error C2664: 'void OutputDebugStringW(LPCWSTR)': 인수 1을(를) 'const char [22]'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+  DDUTIL.CPP(132): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+  DSUTIL.CPP
+DSUTIL.CPP(163): error C2664: 'HRSRC FindResourceW(HMODULE,LPCWSTR,LPCWSTR)': 인수 3을(를) 'const char [4]'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+  DSUTIL.CPP(163): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+  ma.cpp
+ma.cpp(145): error C2664: 'int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)': 인수 2을(를) 'const char [32]'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+  ma.cpp(145): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+ma.cpp(262): error C2440: '=': 'const char [5]'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+  ma.cpp(262): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+ma.cpp(268): error C2664: 'HWND CreateWindowExW(DWORD,LPCWSTR,LPCWSTR,DWORD,int,int,int,int,HWND,HMENU,HINSTANCE,LPVOID)': 인수 2을(를) 'const char [5]'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+  ma.cpp(268): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+ma.cpp(273): error C2664: 'HWND CreateWindowExW(DWORD,LPCWSTR,LPCWSTR,DWORD,int,int,int,int,HWND,HMENU,HINSTANCE,LPVOID)': 인수 2을(를) 'const char [5]'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+  ma.cpp(273): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+ma.cpp(419): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\ucrt\stdio.h(1774): note: 'sprintf' 선언을 참조하십시오.
+ma.cpp(428): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\ucrt\stdio.h(1774): note: 'sprintf' 선언을 참조하십시오.
+ma.cpp(450): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\ucrt\stdio.h(1774): note: 'sprintf' 선언을 참조하십시오.
+ma.cpp(457): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\ucrt\stdio.h(1774): note: 'sprintf' 선언을 참조하십시오.
+ma.cpp(477): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\ucrt\stdio.h(1774): note: 'sprintf' 선언을 참조하십시오.
+ma.cpp(513): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\ucrt\stdio.h(1774): note: 'sprintf' 선언을 참조하십시오.
+ma.cpp(522): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\ucrt\stdio.h(1774): note: 'sprintf' 선언을 참조하십시오.
+ma.cpp(551): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\ucrt\stdio.h(1774): note: 'sprintf' 선언을 참조하십시오.
+ma.cpp(565): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\ucrt\stdio.h(1774): note: 'sprintf' 선언을 참조하십시오.
+ma.cpp(588): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\ucrt\stdio.h(1774): note: 'sprintf' 선언을 참조하십시오.
+ma.cpp(606): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\ucrt\stdio.h(1774): note: 'sprintf' 선언을 참조하십시오.
+ma.cpp(613): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\ucrt\stdio.h(1774): note: 'sprintf' 선언을 참조하십시오.
+ma.cpp(619): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\ucrt\stdio.h(1774): note: 'sprintf' 선언을 참조하십시오.
+ma.cpp(623): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\ucrt\stdio.h(1774): note: 'sprintf' 선언을 참조하십시오.
+ma.cpp(633): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\ucrt\stdio.h(1774): note: 'sprintf' 선언을 참조하십시오.
+ma.cpp(663): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\ucrt\stdio.h(1774): note: 'sprintf' 선언을 참조하십시오.
+ma.cpp(671): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\ucrt\stdio.h(1774): note: 'sprintf' 선언을 참조하십시오.
+ma.cpp(703): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\ucrt\stdio.h(1774): note: 'sprintf' 선언을 참조하십시오.
+ma.cpp(804): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\ucrt\stdio.h(1774): note: 'sprintf' 선언을 참조하십시오.
+ma.cpp(826): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\ucrt\stdio.h(1774): note: 'sprintf' 선언을 참조하십시오.
+ma.cpp(850): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\ucrt\stdio.h(2263): note: 'sscanf' 선언을 참조하십시오.
+ma.cpp(895): error C2664: 'IDirectDrawSurface *DDLoadBitmap(IDirectDraw *,LPCTSTR,int,int)': 인수 2을(를) 'const char [8]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+  ma.cpp(895): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+ma.cpp(898): error C2664: 'IDirectDrawSurface *DDLoadBitmap(IDirectDraw *,LPCTSTR,int,int)': 인수 2을(를) 'const char [20]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+  ma.cpp(898): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+ma.cpp(899): error C2664: 'IDirectDrawSurface *DDLoadBitmap(IDirectDraw *,LPCTSTR,int,int)': 인수 2을(를) 'const char [21]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+  ma.cpp(899): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+ma.cpp(902): error C2664: 'IDirectDrawSurface *DDLoadBitmap(IDirectDraw *,LPCTSTR,int,int)': 인수 2을(를) 'const char [20]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+  ma.cpp(902): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+ma.cpp(903): error C2664: 'IDirectDrawSurface *DDLoadBitmap(IDirectDraw *,LPCTSTR,int,int)': 인수 2을(를) 'const char [21]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+  ma.cpp(903): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+ma.cpp(912): error C2664: 'IDirectDrawSurface *DDLoadBitmap(IDirectDraw *,LPCTSTR,int,int)': 인수 2을(를) 'const char [15]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+  ma.cpp(912): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+ma.cpp(914): error C2664: 'IDirectDrawSurface *DDLoadBitmap(IDirectDraw *,LPCTSTR,int,int)': 인수 2을(를) 'const char [13]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+  ma.cpp(914): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+ma.cpp(916): error C2664: 'IDirectDrawSurface *DDLoadBitmap(IDirectDraw *,LPCTSTR,int,int)': 인수 2을(를) 'const char [13]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+  ma.cpp(916): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+ma.cpp(918): error C2664: 'IDirectDrawSurface *DDLoadBitmap(IDirectDraw *,LPCTSTR,int,int)': 인수 2을(를) 'const char [13]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+  ma.cpp(918): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+ma.cpp(920): error C2664: 'IDirectDrawSurface *DDLoadBitmap(IDirectDraw *,LPCTSTR,int,int)': 인수 2을(를) 'const char [13]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+  ma.cpp(920): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+ma.cpp(922): error C2664: 'IDirectDrawSurface *DDLoadBitmap(IDirectDraw *,LPCTSTR,int,int)': 인수 2을(를) 'const char [12]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+  ma.cpp(922): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+ma.cpp(924): error C2664: 'IDirectDrawSurface *DDLoadBitmap(IDirectDraw *,LPCTSTR,int,int)': 인수 2을(를) 'const char [13]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+  ma.cpp(924): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+ma.cpp(926): error C2664: 'IDirectDrawSurface *DDLoadBitmap(IDirectDraw *,LPCTSTR,int,int)': 인수 2을(를) 'const char [14]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+  ma.cpp(926): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+ma.cpp(928): error C2664: 'IDirectDrawSurface *DDLoadBitmap(IDirectDraw *,LPCTSTR,int,int)': 인수 2을(를) 'const char [14]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+  ma.cpp(928): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+ma.cpp(930): error C2664: 'IDirectDrawSurface *DDLoadBitmap(IDirectDraw *,LPCTSTR,int,int)': 인수 2을(를) 'const char [13]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+  ma.cpp(930): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+ma.cpp(933): error C2664: 'IDirectDrawSurface *DDLoadBitmap(IDirectDraw *,LPCTSTR,int,int)': 인수 2을(를) 'const char [10]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+  ma.cpp(933): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+ma.cpp(935): error C2664: 'IDirectDrawSurface *DDLoadBitmap(IDirectDraw *,LPCTSTR,int,int)': 인수 2을(를) 'const char [10]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+  ma.cpp(935): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+ma.cpp(937): error C2664: 'IDirectDrawSurface *DDLoadBitmap(IDirectDraw *,LPCTSTR,int,int)': 인수 2을(를) 'const char [10]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+  ma.cpp(937): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+ma.cpp(939): error C2664: 'IDirectDrawSurface *DDLoadBitmap(IDirectDraw *,LPCTSTR,int,int)': 인수 2을(를) 'const char [9]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+  ma.cpp(939): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+ma.cpp(943): error C2664: 'IDirectDrawSurface *DDLoadBitmap(IDirectDraw *,LPCTSTR,int,int)': 인수 2을(를) 'const char [10]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+  ma.cpp(943): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+ma.cpp(945): error C2664: 'IDirectDrawSurface *DDLoadBitmap(IDirectDraw *,LPCTSTR,int,int)': 인수 2을(를) 'const char [10]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+  ma.cpp(945): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+ma.cpp(947): error C2664: 'IDirectDrawSurface *DDLoadBitmap(IDirectDraw *,LPCTSTR,int,int)': 인수 2을(를) 'const char [10]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+  ma.cpp(947): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+ma.cpp(949): error C2664: 'IDirectDrawSurface *DDLoadBitmap(IDirectDraw *,LPCTSTR,int,int)': 인수 2을(를) 'const char [10]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+  ma.cpp(949): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+ma.cpp(959): error C2664: 'HSNDOBJ SndObjCreate(IDirectSound *,LPCTSTR,int)': 인수 2을(를) 'const char [14]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+  ma.cpp(959): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+ma.cpp(960): error C2664: 'HSNDOBJ SndObjCreate(IDirectSound *,LPCTSTR,int)': 인수 2을(를) 'const char [9]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+  ma.cpp(960): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+ma.cpp(961): error C2664: 'HSNDOBJ SndObjCreate(IDirectSound *,LPCTSTR,int)': 인수 2을(를) 'const char [9]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+  ma.cpp(961): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+ma.cpp(962): error C2664: 'HSNDOBJ SndObjCreate(IDirectSound *,LPCTSTR,int)': 인수 2을(를) 'const char [11]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+  ma.cpp(962): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+ma.cpp(963): error C2664: 'HSNDOBJ SndObjCreate(IDirectSound *,LPCTSTR,int)': 인수 2을(를) 'const char [12]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+  ma.cpp(963): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+ma.cpp(964): error C2664: 'HSNDOBJ SndObjCreate(IDirectSound *,LPCTSTR,int)': 인수 2을(를) 'const char [12]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+  ma.cpp(964): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+  Packet.cpp
+  tcpClientPacket.cpp
+c:\users\user\desktop\갈매기\master\wspiapi.h(89): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\ucrt\string.h(137): note: 'strcpy' 선언을 참조하십시오.
+c:\users\user\desktop\갈매기\master\wspiapi.h(128): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\um\WinSock2.h(1830): note: 'inet_addr' 선언을 참조하십시오.
+c:\users\user\desktop\갈매기\master\wspiapi.h(256): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\ucrt\string.h(137): note: 'strcpy' 선언을 참조하십시오.
+c:\users\user\desktop\갈매기\master\wspiapi.h(232): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\um\WinSock2.h(2218): note: 'gethostbyname' 선언을 참조하십시오.
+c:\users\user\desktop\갈매기\master\wspiapi.h(313): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\ucrt\string.h(137): note: 'strcpy' 선언을 참조하십시오.
+c:\users\user\desktop\갈매기\master\wspiapi.h(613): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\um\WinSock2.h(1848): note: 'inet_ntoa' 선언을 참조하십시오.
+c:\users\user\desktop\갈매기\master\wspiapi.h(754): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\ucrt\string.h(137): note: 'strcpy' 선언을 참조하십시오.
+c:\users\user\desktop\갈매기\master\wspiapi.h(804): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\ucrt\string.h(137): note: 'strcpy' 선언을 참조하십시오.
+c:\users\user\desktop\갈매기\master\wspiapi.h(733): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\ucrt\stdio.h(1774): note: 'sprintf' 선언을 참조하십시오.
+c:\users\user\desktop\갈매기\master\wspiapi.h(748): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\ucrt\stdio.h(1774): note: 'sprintf' 선언을 참조하십시오.
+c:\users\user\desktop\갈매기\master\wspiapi.h(769): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\um\WinSock2.h(1848): note: 'inet_ntoa' 선언을 참조하십시오.
+c:\users\user\desktop\갈매기\master\wspiapi.h(774): warning C4996: 'gethostbyaddr': Use getnameinfo() or GetNameInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\um\WinSock2.h(2196): note: 'gethostbyaddr' 선언을 참조하십시오.
+c:\users\user\desktop\갈매기\master\wspiapi.h(799): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\um\WinSock2.h(1848): note: 'inet_ntoa' 선언을 참조하십시오.
+tcpClientPacket.cpp(40): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\ucrt\string.h(137): note: 'strcpy' 선언을 참조하십시오.
+tcpClientPacket.cpp(46): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\ucrt\string.h(137): note: 'strcpy' 선언을 참조하십시오.
+tcpClientPacket.cpp(56): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\ucrt\string.h(137): note: 'strcpy' 선언을 참조하십시오.
+tcpClientPacket.cpp(58): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\ucrt\string.h(137): note: 'strcpy' 선언을 참조하십시오.
+tcpClientPacket.cpp(138): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\ucrt\string.h(137): note: 'strcpy' 선언을 참조하십시오.
+tcpClientPacket.cpp(67): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\um\WinSock2.h(2218): note: 'gethostbyname' 선언을 참조하십시오.
+tcpClientPacket.cpp(73): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\um\WinSock2.h(1848): note: 'inet_ntoa' 선언을 참조하십시오.
+tcpClientPacket.cpp(79): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\um\WinSock2.h(1830): note: 'inet_addr' 선언을 참조하십시오.
+tcpClientPacket.cpp(80): warning C4996: 'gethostbyaddr': Use getnameinfo() or GetNameInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\um\WinSock2.h(2196): note: 'gethostbyaddr' 선언을 참조하십시오.
+tcpClientPacket.cpp(239): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\um\WinSock2.h(1830): note: 'inet_addr' 선언을 참조하십시오.
+tcpClientPacket.cpp(270): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\ucrt\stdio.h(1774): note: 'sprintf' 선언을 참조하십시오.

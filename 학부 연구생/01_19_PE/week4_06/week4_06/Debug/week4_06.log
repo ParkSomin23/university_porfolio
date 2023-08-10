@@ -1,0 +1,12 @@
+﻿  CV.cpp
+c:\users\user\desktop\opencv_pe\week4_06\week4_06\cv.cpp(634): warning C4244: '=': 'double'에서 '_Tp'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Tp=float
+          ]
+c:\users\user\desktop\opencv_pe\week4_06\week4_06\cv.cpp(647): warning C4244: '=': 'double'에서 '_Tp'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Tp=float
+          ]
+  week4_06.vcxproj -> C:\Users\user\Desktop\opencv_PE\week4_06\Debug\week4_06.exe
